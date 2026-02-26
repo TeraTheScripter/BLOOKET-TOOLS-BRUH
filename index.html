@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blooket Cheat Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .toggle {
+            margin: 10px 0;
+            padding: 10px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .cheat-button {
+            margin-top: 10px;
+            padding: 10px;
+            cursor: pointer;
+            background-color: #28A745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Blooket Cheat Interface</h1>
+        <button class="toggle" onclick="toggleMenu()">Toggle Menu</button>
+        <input type="text" class="input-field" id="gameCode" placeholder="Enter Blooket Game Code">
+        <button class="cheat-button" onclick="integrateCheat()">Activate Cheat</button>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            alert('Menu toggled!'); // Placeholder for menu functionality
+        }
+        function integrateCheat() {
+            const gameCode = document.getElementById('gameCode').value;
+            alert('Cheat activated for game code: ' + gameCode); // Placeholder for cheat functionality
+        }
+    </script>
+</body>
+</html>
